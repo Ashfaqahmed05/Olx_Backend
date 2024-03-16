@@ -1,0 +1,90 @@
+starting projects
+
+           index.mjs
+1. server listening
+2. Mongodb connecting 
+3. router import
+
+
+           create config folder 
+for using libraies and etc
+
+
+create routers 
+1. ads.mjs 
+2. user.mjs
+3. orders.mjs
+
+create modules
+in modules folder create SCHEMA
+
+
+
+
+
+
+
+in  index.mjs write the following code:
+
+app.use(express.json())
+
+agr nhi likhte tw post api me data nh aega usko pta hi nh he k data kis formatte me aega.
+agr ye nh likhenge tw body undefine aegi.
+
+
+
+
+            AUTHENTICATION
+
+1. public routes           (everyone can access without auth)
+2. protected routes        (Only auth user access)
+
+Libraryies: 
+1. Bcryptjs  (Password Encryption)
+2. Json Web Token (Token generating)
+
+
+
+Registration:  (fullname, contactNo, email, Password)
+Steps:
+1. Password Encryption
+2. Save in Mongodb
+
+
+Login: (email, Password)
+steps:
+1. If email exists
+2. Compare Password
+3. Generate token 
+
+
+
+
+
+
+
+        STATUS
+
+200 success response 
+400 bad request
+401 forbidden
+404 not found
+500 server error
+
+
+Falsy values in javascript:
+
+1. False
+2. 0
+3. "" (empty string)
+4. null
+5. NaN
+6. Undefined
+
+
+
+Arrow function parents ka "this" access krta he  or  function apna "this" access krta he
+
+
+
+.emv file
