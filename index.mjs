@@ -5,6 +5,7 @@ import { PORT } from "./config/environment.mjs";
 
 db.connection.once('open', () => console.log("connected to db")).on("error", (err) => console.log("error connecting db -->", err))
 
+
 const app = express()
 
 app.listen(PORT, function(){
